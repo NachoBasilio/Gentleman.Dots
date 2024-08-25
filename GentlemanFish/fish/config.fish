@@ -2,7 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-set PROJECT_PATHS /your/work/path/
+set PROJECT_PATHS /home/ignadev/work/ 
 
 if test (uname) = Darwin
     # macOS
