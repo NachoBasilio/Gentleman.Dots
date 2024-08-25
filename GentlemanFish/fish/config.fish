@@ -14,13 +14,13 @@ end
 
 eval ($BREW_BIN shellenv)
 
-if not set -q TMUX
-    tmux
-end
-
-#if not set -q ZELLIJ 
-#  zellij
+#if not set -q TMUX
+#    tmux
 #end
+
+if not set -q ZELLIJ 
+  zellij
+end
 
 
 starship init fish | source
